@@ -19,6 +19,12 @@ body {
     height: auto;
 }
 
+@media (prefers-reduced-motion) {
+    .header-gif {
+        display: none;
+    }
+}
+
 nav ul {
     display: flex;
     justify-content: center;
